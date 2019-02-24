@@ -1,0 +1,272 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+
+/**  Basic Page CSS **/
+body{
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+
+
+/**  Header Navigation **/
+
+header .navbar {
+  padding: 30px 0;
+  transition: all .5s ease-out;
+}
+
+header .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+header .navbar-default .navbar-nav a {
+  color: white;
+  padding: 5px 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #5B1865;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 700;
+  color: #5B1865;
+  background: transparent;
+  border-bottom: 4px solid #5B1865;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+  color: #5688C7;
+  background: transparent;
+  text-shadow: none;
+}
+
+/**  Navbar Brand **/
+
+header .navbar-brand {
+  background: url(../images/BJA_Logo_003.svg);
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+  height: auto;
+}
+
+header .navbar-brand h1 {
+  color: white;
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 400;
+  padding-left: 85px;
+}
+
+header .navbar-brand span.subhead {
+  display: block;
+  font-family: "Roboto Slab", serif;
+  font-size: .6em;
+  font-weight: 100;
+}
+
+/**  Navbar Toggle **/
+header .navbar-toggle {
+  background-color: #5B1865;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+@media only screen
+and (max-width: 768px) {
+  header .navbar-collapse.in {
+    background-color: rgba(0,0,0, .5);
+  }
+}
+
+/**  nav inbody **/
+
+header .inbody {
+  background: rgba(37,17,1,.8);
+}
+
+header .navbar.inbody {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header .navbar.inbody .navbar-nav {
+  padding-top: 10px;
+}
+
+header .inbody .navbar-brand {
+  background-size: 43px;
+  background-position: top left;
+  margin-top: 5px;
+  padding-bottom: 0;
+  margin-left: 10px;
+}
+
+header .inbody .navbar-brand h1 {
+  font-size: 1.4em;
+  padding-left: 38px;
+  padding-bottom: 7px;
+}
+
+header .inbody .navbar-brand span.subhead {
+  display: none;
+}
+
+/**  Carousel Fade **/
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.carousel.fade .item {
+  transition: opacity ease-out .7s;
+  left: 0;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 0;
+  position: relative;
+}
+
+.carousel.fade .item.active {
+  opacity: 1;
+}
+
+.carousel-control {
+  opacity: 0;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+
+#featured .item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+
+/**  Page **/
+.page {
+  padding: 50px 0;
+}
+
+.page h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/**  Page -- Bio **/
+#bio {
+ background-color:#5B1865;
+ background-image: linear-gradient(to bottom, #5688C7, #2C5784);
+ border-top: 20px solid rgba(91, 24, 101, .5);	
+}
+
+
+/**  Page -- Gallery **/
+#gallery {
+	background-image: url(../images/bg_patten_001.png);
+	background-color: #CCC;
+	background-size:cover;
+	
+	
+	
+}
+
+
+
+/**  Page -- Church Art **/
+
+.panel {
+  margin: 20px 0;
+  text-align: center;
+  background-color:transparent;
+}
+
+
+#church {
+ background-color:#5B1865;
+ background-image: linear-gradient(to bottom, #5688C7, #2C5784);
+ border-top: 20px solid rgba(91, 24, 101, .5);	
+}
+
+#church a {
+	color: #5B1865;
+	}
+
+#church img.icon {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+#church h3 {
+  margin-bottom: 10px;
+}
+
+#church h4 {
+  margin-bottom: 10px;
+
+@media only screen 
+and (min-width: 450px)
+and (max-width: 768px) {
+  .panel p {
+    padding: 0 20%;
+  }
+
+
+/**  Footer **/
+
+
+
+
+#copyright {
+	text-align: center;
+	background-color:#33C;
+	padding-bottom: 50px;
+	}
+
+#copyright p {
+	margin: 20px 0;
+	text-align: center;
+	}
+	
+#copyright a {
+	color: #5B1865;
+	}
+	
+	/**  Modal Windows **/
+	
+#pan001 h3 h4 {
+	padding-bottom: 50px;
+	
+	
+	}
+	
+	
+	
+	
